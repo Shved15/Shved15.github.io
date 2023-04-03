@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Alkatra&display=swap);
+
+body {
+    font-family: Alkatra, serif;
+    background: linear-gradient(90deg, #F1C3F1 52%, #f3e3f3 100%);
+}
+
+p {
+    color: rgb(87, 85, 83);
+}
+
+.navbar.navbar-expand-lg{
+    background-color: #c8b9b6;
+}
+
+.nav-link {
+    color: rgb(87, 85, 83);
+}
+
+.navbar-nav .nav-link.active {
+    color: #f5f5dc;
+}
+
+.navbar-brand img {
+    width: 150px;
+    padding: 0;
+}
+.navbar-toggler {
+    background-color: #f5f5dc;
+}
+
+.right-bar {
+    color: rgb(87, 85, 83);
+    background: linear-gradient(270deg, #FFFCFC 52%, #c8b9b6 100%);
+
+}
+
+.card {
+    background: linear-gradient(270deg, #FFFCFC 52%, #c8b9b6 100%);
+}
+
+.card a {
+    text-decoration: none;
+    color: rgb(87, 85, 83);
+}
+
+.btn.btn-primary {
+    color: rgb(87, 85, 83);
+    background: linear-gradient(270deg, #FFFCFC 52%, #F1C3F1 100%);
+}
+
+.slide-text,
+.footer-text {
+    color: rgb(87, 85, 83);
+    margin: auto auto;
+}
+
+footer,
+.btn-outline-primary {
+    background: linear-gradient(270deg, #FFFCFC 52%, #c8b9b6 100%);
+    color: rgb(87, 85, 83);
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone-animat {
+    animation: phone 2s ease 0s infinite reverse backwards;
+}
+@keyframes phone {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
